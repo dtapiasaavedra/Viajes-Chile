@@ -1,0 +1,26 @@
+body {
+    background-color: #1B1919;
+    color: #F5F1F1;
+    font-family: "Andika", sans-serif;
+
+}
+
+.logo img {
+    height: 2em;
+
+}
+
+.nav-link {
+    font-weight: 200;
+
+}
+
+
+footer {
+    background-color: #317174;
+}
+
+footer i{
+
+    min-height: 3em !important;
+}

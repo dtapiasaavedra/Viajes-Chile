@@ -8,3 +8,7 @@ $(window).scroll(function () {
       $('.navbar').removeClass('bg-opacity');
     }
   });
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })

@@ -15,7 +15,6 @@ body {
 
 }
 
-
 footer {
     background-color: #317174;
 }
@@ -24,3 +23,11 @@ footer i{
 
     min-height: 3em !important;
 }
+
+
+#Destacados {
+
+    margin-left: 5em !important;
+    margin-right: 5em !important;
+}
+   

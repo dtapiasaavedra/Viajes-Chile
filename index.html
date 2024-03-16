@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" 
     rel="stylesheet">
+    <!--Jqueery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -26,7 +29,7 @@
                 <img src="assets/img/viajes.svg" class="img-fluid">
             </div>
             <div>
-                <h5 class="text-white">Viajes Chile</h5>
+                <h5 class="px-3 my-2">Viajes Chile</h5>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +54,7 @@
                 </div>
             </div>
     </nav>
+
     <!--Sección heroe-->
     <header id="Inicio">
         <div id="carouselExample" class="carousel slide">
@@ -83,8 +87,10 @@
 
          <div class="row">
             <div class="col-12 col-md-4">
-                <i class="fa-solid fa-plane my-3" data-bs-toggle="tooltip" data-bs-title="Default tooltip fa-3x"></i>
-
+                <div class="bg-info text-center">
+                    <i class="fa-solid fa-plane fa-2x my-3"></i>
+                </div>
+        
                 <p class="my-3" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -115,13 +121,16 @@
                     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.
                 </p>
-
-                <i class="fa-solid fa-triangle-exclamation fa-3x my-3"></i>
+                <div class="bg-info text-center">
+                    <i class="fa-solid fa-triangle-exclamation fa-2x my-3"></i>
+                </div>
 
             </div>
             <div class="col-12 col-md-4">
-
-                <i class="fa-solid fa-route fa-3x my-3"></i>
+                
+                <div class="bg-info text-center">
+                    <i class="fa-solid fa-route fa-2x my-3"></i>
+                </div>
 
                 <p class="my-3">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -142,14 +151,14 @@
     </section>
 
     <!--Sección Destacados-->
-    <section class="countainer my-5" id="Destacados">
+    <section class="countainer " id="Destacados">
         <h3 class="text-center mb-3 py-5">Destacados</h3>
 
         <div class="row">
             <div class="col-12 col-sm-3 py-2">
                 <div class="card">
                     <img src="assets/img/card1.jpg" class="card-img-top image-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-info text-white">
                         <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
                         <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -164,7 +173,7 @@
             <div class="col-12 col-sm-3 py-2">
                 <div class="card">
                     <img src="assets/img/card2.jpg" class="card-img-top image-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-info text-white">
                         <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
                         <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -179,7 +188,7 @@
             <div class="col-12 col-sm-3 py-2">
                 <div class="card">
                     <img src="assets/img/card3.jpg" class="card-img-top image-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-info text-white">
                         <h5 class="card-title fw-bold">Salmones de Alaska</h5>
                         <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -194,7 +203,7 @@
             <div class="col-12 col-sm-3 py-2">
                 <div class="card">
                     <img src="assets/img/card4.jpg" class="card-img-top image-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body bg-info text-white">
                         <h5 class="card-title fw-bold">Salmones de Alaska</h5>
                         <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -237,26 +246,26 @@
 
   <!--Footer--> 
     <footer id="" class="d-none d-sm-none d-md-block">
-        <div class="container">
+        <div class="container py-4">
 
             <div class="row text-light"> 
               <div class="col-6">
-                <h3 class="py-3">Viajes Chile</h3>
+                <h3 class="ms-5">Viajes Chile</h3>
               </div>
 
-              <div class="col-6 p-2">
+              <div class="col-6 mf-5">
                 <div class="row">
                   <div class="col-2 text-white">
-                    <i class="fa-brands fa-square-github"></i>
+                    <i class="fa-brands fa-square-github fa-2x"></i>
                   </div>
                   <div class="col-2">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
                   </div>
                   <div class="col-2">
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-x-twitter fa-2x"></i>
                   </div>
                   <div class="col-2">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook fa-2x"></i>
                   </div>
                 </div>     
               </div>
